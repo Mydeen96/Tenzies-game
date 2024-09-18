@@ -5,6 +5,7 @@ import Die from "./component/Die"
 export default function App(){
   
   const [dices , setDice] = React.useState(allDice())
+  const [tenzies,setTenzies] =  React.useState(false)
 
   function generateNewDice(){
             return{
