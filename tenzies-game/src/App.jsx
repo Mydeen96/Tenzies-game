@@ -1,7 +1,7 @@
 import React from "react"
 import { nanoid } from "nanoid"
 import Die from "./component/Die"
-import Confetti from 'react-confetti';
+import Confetti from 'react-confetti'
 
 export default function App(){
   
